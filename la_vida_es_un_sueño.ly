@@ -445,8 +445,10 @@ guitarparttwo = \relative c' {
 % PaperColumn and NonMusicalPaperColumn do nothing in this entire source file.
 % Previously I had SeparationItem, which became a no-op and warning in some version of LP.   
 % Current edit is also a noop, but gives no warning.
-   \once \override Score.NonMusicalPaperColumn.padding = #1.0
-        << s4 \f  \\d4-4   >> c8-4 \>  b-3 |
+% I think it is \once that makes it a no op
+% Without \once, this grob applies to the entire output, everywhere
+%  \override Score.NonMusicalPaperColumn.padding = #1.0
+        << s4 \f  \\d4-4   >> c8-4 \>  b-3  |
 
     %BAR 50
    a^\markup {\fret-diagram-terse "x;x;7;5-(;5;5-);"}
