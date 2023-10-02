@@ -1,6 +1,6 @@
 \version "2.6.3"
 % bass part during guitar solo
-basspartone = \relative c { 
+basspartone = \relative c {
   \set Staff.midiInstrument = #"electric bass (finger)"
   \set Staff.instrument = "Elect. Bass Guitar "
   \set Staff.instr = "Bass G. "
@@ -9,7 +9,7 @@ basspartone = \relative c {
 
   %BAR 33
   \time 2/4 { r4 r8 e,} |
-  
+
   %BAR 34
   \time 4/4
   g8 r4 b4. d4 |
@@ -44,10 +44,10 @@ basspartone = \relative c {
   %BAR 44
    e,4. b8 e e dis d  |
 
-  %BAR 45   
+  %BAR 45
   cis1
 }
- 
+
 bassparttwo = \relative c {
   \clef bass
 %  \key g \major  this prints an extra key sig in wrong place
@@ -100,4 +100,3 @@ bassparttwo = \relative c {
   %BAR 61
   d r8 r2.
 }
-
