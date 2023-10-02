@@ -239,14 +239,13 @@ Verse_A = {
 %%%%%%%%
 
 Verse_B = {
-
          %BAR 24
 	  \override Staff.DynamicLineSpanner.padding = #1.0
-          c=,4\p^\markup{ \fret-diagram-terse "x;3;5;5;5;x;"}
+          c'4\p^\markup{ \fret-diagram-terse "x;3;5;5;5;x;"}
 	    ^\markup{\box\tiny C}
             ^\markup{\circle\bold A}
 	   \<
-             <g' c e-.>8 r  
+             <g c e-.>8 r
             g4^\markup \fret-diagram-terse "x;x;5;5;5;x;" e'8 c8  |
 
           %BAR 25
