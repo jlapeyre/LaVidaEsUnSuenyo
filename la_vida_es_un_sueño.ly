@@ -25,26 +25,28 @@
 
 %%%%%%%%
 %%%%%%%% Introduction
+%%%%%%%% Solo guitar
 %%%%%%%%
 
-% The opening part of the piece is unaccompanied guitar.
 Introduction = {
-% Introduction , solo guitar
-   % Raise the metronome tempo mark a bit so it doesn't hit the notes in the staff
+
 %  \override Glissando.bound-details.right.arrow = ##t
+%% Raise the metronome tempo mark a bit so it doesn't hit the notes in the staff  
    \override Score.MetronomeMark.padding = #9.0
    \override Staff.DynamicLineSpanner.padding = #4.0
-%   \override Staff.DynamicTextSpanner.padding = #7.0
-   % Raise the numerals giving the bar numbers so they don't hit the staff.
+
+% \override Staff.DynamicTextSpanner.padding = #7.0
+%% Raise the numerals giving the bar numbers so they don't hit the staff.
    \override Score.BarNumber.padding = #2.0
    \override Staff.Fingering.padding = #1.1
 %   \override TextScript.extra-offset = #'(0 . 0)
-   % Glissandi are invisibly short without this
+
+%% Glissandi are invisibly short without this
    \override Glissando.minimum-length = #5
    \override Glissando.springs-and-rods  = #ly:spanner::set-spacing-rods
 %   \override Glissando.thickness = 3
 
-   % make the tempo mark
+%% make the tempo mark
    \tempo   8=144
    \time 2/4
     <c-3 e-4>8^\markup { \box\line\tiny{ C} }
@@ -331,12 +333,12 @@ guitarsolo = \relative c' {
 
          \revert TextScript.padding
 
-%         \override Score.SeparationItem.padding = #0.8
+%         \override Score.PaperColumn.padding = #0.8
           %BAR 37
           fis4.-3^\markup{\box \tiny Am} \glissando
          \hideNotes \grace e, \unHideNotes
              r8.
-%         \revert Score.SeparationItem.padding
+%         \revert Score.PaperColumn.padding
            \override TextScript.padding = #5
             e=16^\markup{\box{ \tiny \line{ Am add 2}} or \box\tiny\line{ Esus4 add 5+}}
           \startTextSpan  a-1 b-3_\markup{\tiny {roll 3 to barre}}
@@ -437,7 +439,7 @@ guitarparttwo = \relative c' {
 %   \override Glissando.minimum-length = #5.0
 %   \override Glissando.thickness = #5.0
    << {  e'4-2 \<  }  \\ { r8 gis16-1 b16-4 \glissando} >>
-   \once \override Score.SeparationItem.padding = #1.0
+   \once \override Score.PaperColumn.padding = #1.0
         << s4 \f  \\d4-4   >> c8-4 \>  b-3 |
 
     %BAR 50
@@ -528,11 +530,11 @@ guitarending = \relative c' {
         b-3 d-1
        g,-1^\markup{\circle\finger  4} \glissando b d,-2^\markup{\circle\finger  4}
        g-2^\markup{\circle\finger  5}\glissando
-    \override Score.SeparationItem.padding = #0.8
+    \override Score.PaperColumn.padding = #0.8
     \set stringNumberOrientations = #'(down right up)
         b,-2^\markup{\circle\finger 6}
          \glissando g \stopTextSpan
-   \revert Score.SeparationItem.padding
+   \revert Score.PaperColumn.padding
     <g b' fis'>2^\markup \fret-diagram-terse "3;x;x;x;o;2;" ~<g b' fis'>2
    \bar "|."
 
