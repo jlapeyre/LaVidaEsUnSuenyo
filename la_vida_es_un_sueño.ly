@@ -28,7 +28,7 @@
 %%%%%%%%
 
 % The opening part of the piece is unaccompanied guitar.
-introduction = { 
+Introduction = { 
 % Introduction , solo guitar
    % Raise the metronome tempo mark a bit so it doesn't hit the notes in the staff
 %  \override Glissando.bound-details.right.arrow = ##t   
@@ -544,7 +544,7 @@ sologuitar = \relative c'' {
        \clef treble
        \key g \major
        \set Staff.midiInstrument = "electric guitar (jazz)"
-	\introduction
+	\Introduction
         \Verse_A
         \Verse_B
 }
