@@ -4,8 +4,7 @@
 % La Vida Es un Sueno arr. by Marc Ribot
 % Version 0.01 of this document
 
-
-\include "lveusbass.ly"
+% \include "lveusbass.ly"
 
 #(set-default-paper-size "letter")
 
@@ -24,7 +23,9 @@
   lastupdated = "2005/Sept/25"
 }
 
-
+%%%%%%%%
+%%%%%%%% Electric Bass part
+%%%%%%%%
 
 % The opening part of the piece is unaccompanied guitar.
 introduction = { 
@@ -117,17 +118,18 @@ introduction = {
       ^\markup {\fret-diagram-terse "x;6;5;6;6;x;" }
         ^\markup \box\line\tiny{E\flat 9}
               \\  {f'8_4_\markup{rit. poco} g,_1 cis_3 f \p } >>   |
+
 % Spent an hour trying to move either rit poco or fingerings out
-% of the way. never really succeeded
-%     \override TextScript.padding = #5
-%     \revert TextScript.padding
+% of the way. Never really succeeded
+% \override TextScript.padding = #5
+% \revert TextScript.padding
 
      %BAR 11
      <d, fis c' e >1^\markup {\fret-diagram-terse "x;5;4;5;5;x;"}
           ^\markup \box\line\tiny{D9} \bar "||" |
 
 % End Introduction , solo guitar
-   }
+} % end introduction = { 
 
 versea = { 
 
@@ -540,7 +542,11 @@ sologuitar = \relative c'' {
         \verseb
 }
 
+%%%%%%%%
+%%%%%%%% Electric Bass part
+%%%%%%%%
 
+\include "la_vida_es_un_sueño-bass.ly"
 
 \score {
  \new StaffGroup
