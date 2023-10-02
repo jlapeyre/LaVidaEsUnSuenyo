@@ -1,9 +1,9 @@
-\version "2.6.3"
+\version "2.24.0"
 % bass part during guitar solo
 basspartone = \relative c {
   \set Staff.midiInstrument = #"electric bass (finger)"
-  \set Staff.instrument = "Elect. Bass Guitar "
-  \set Staff.instr = "Bass G. "
+  \set Staff.instrumentName = "Elect. Bass Guitar "
+  \set Staff.shortInstrumentName = "Bass G. "
   \clef bass
   \key g \major
 
