@@ -24,7 +24,7 @@
 }
 
 %%%%%%%%
-%%%%%%%% Electric Bass part
+%%%%%%%% Introduction
 %%%%%%%%
 
 % The opening part of the piece is unaccompanied guitar.
@@ -131,7 +131,11 @@ introduction = {
 % End Introduction , solo guitar
 } % end introduction = { 
 
-versea = { 
+%%%%%%%%
+%%%%%%%% First Verse (Verse A)
+%%%%%%%%
+
+Verse_A = { 
 
          % This section is one guitar and one voice (vocal part is not scored)          
 	  %BAR 12
@@ -230,8 +234,11 @@ versea = {
      % End of solo guitar part, band enters in next section
 }
 
+%%%%%%%%
+%%%%%%%% Second Verse (Verse B)
+%%%%%%%%
 
-verseb = {
+Verse_B = {
 
          %BAR 24
 	  \override Staff.DynamicLineSpanner.padding = #1.0
@@ -538,8 +545,8 @@ sologuitar = \relative c'' {
        \key g \major
        \set Staff.midiInstrument = "electric guitar (jazz)"
 	\introduction
-        \versea
-        \verseb
+        \Verse_A
+        \Verse_B
 }
 
 %%%%%%%%
