@@ -49,18 +49,21 @@ Introduction = {
 %% make the tempo mark
    \tempo   8=144
    \time 2/4
+   % BAR 1
     <c-3 e-4>8^\markup { \box\line\tiny{ C} }
      ^\markup{\circle\bold A}
      \mf \>
     <c e>   <d-3 fis-4-.>8
-   <g-2 e-3>8~ \arpeggio-- <g e>8 \glissando
-
+   <g-2 e-3>8~
+   % BAR 2
+   \arpeggio-- <g e>8 \glissando
     <fis d>8 <c e> \p \!
     <<  {r8  \once \override Staff.Fingering.padding = #2.0 <d-4 fis-4> \mf \>
       <c-4 e-4> <b dis> <c e> \! } \\
      \once \override Staff.Fingering.padding = #0.0
    {c,8-1 | c2}  >>
    \time  5/8
+   % BAR 4
    \tuplet 7/5 {c8-2^\markup{\box\line\tiny{CMaj7}}
       \mf e g c b
        <bes-2   fis-3>4^\markup{\box\line\tiny {C\sharp{sus4/6} or F\sharp}}}  |
@@ -438,7 +441,10 @@ guitarparttwo = \relative c' {
    <gis-1 e-2>4^\markup{\box\tiny {E7}}
 %   \override Glissando.minimum-length = #5.0
 %   \override Glissando.thickness = #5.0
-   << {  e'4-2 \<  }  \\ { r8 gis16-1 b16-4 \glissando} >>
+    << {  e'4-2 \<  }  \\ { r8 gis16-1 b16-4 \glissando} >>
+% PaperColumn and NonMusicalPaperColumn do nothing in this entire source file.
+% Previously I had SeparationItem, which became a no-op and warning in some version of LP.   
+% Current edit is also a noop, but gives no warning.
    \once \override Score.NonMusicalPaperColumn.padding = #1.0
         << s4 \f  \\d4-4   >> c8-4 \>  b-3 |
 
@@ -540,8 +546,7 @@ guitarending = \relative c' {
 
 }
 
-
-sologuitar = \relative c'' {
+SoloGuitar = \relative c'' {
        \clef treble
        \key g \major
        \set Staff.midiInstrument = "electric guitar (jazz)"
@@ -559,7 +564,7 @@ sologuitar = \relative c'' {
 \score {
  \new StaffGroup
    \relative c' <<
-   \new Staff { \sologuitar  \break  << {\guitarsolo  \guitarparttwo \guitarending}
+   \new Staff { \SoloGuitar  \break  << {\guitarsolo  \guitarparttwo \guitarending}
                \new Staff {  \BassPartOne \BassPartTwo} >> }
 %    \new Staff {    << { \guitarparttwo \guitarending} \new Staff {   \bassparttwo } >> }
 
