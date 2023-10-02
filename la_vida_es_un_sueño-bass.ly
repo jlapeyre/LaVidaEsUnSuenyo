@@ -1,6 +1,7 @@
 \version "2.24.0"
 % bass part during guitar solo
-basspartone = \relative c {
+
+BassPartOne = \relative c {
   \set Staff.midiInstrument = #"electric bass (finger)"
   \set Staff.instrumentName = "Elect. Bass Guitar "
   \set Staff.shortInstrumentName = "Bass G. "
@@ -48,7 +49,7 @@ basspartone = \relative c {
   cis1
 }
 
-bassparttwo = \relative c {
+BassPartTwo = \relative c {
   \clef bass
 %  \key g \major  this prints an extra key sig in wrong place
 

@@ -558,7 +558,7 @@ sologuitar = \relative c'' {
  \new StaffGroup
    \relative c' <<
    \new Staff { \sologuitar  \break  << {\guitarsolo  \guitarparttwo \guitarending}
-               \new Staff {  \basspartone \bassparttwo} >> }
+               \new Staff {  \BassPartOne \BassPartTwo} >> }
 %    \new Staff {    << { \guitarparttwo \guitarending} \new Staff {   \bassparttwo } >> }
 
    >>
