@@ -439,7 +439,7 @@ guitarparttwo = \relative c' {
 %   \override Glissando.minimum-length = #5.0
 %   \override Glissando.thickness = #5.0
    << {  e'4-2 \<  }  \\ { r8 gis16-1 b16-4 \glissando} >>
-   \once \override Score.PaperColumn.padding = #1.0
+   \once \override Score.NonMusicalPaperColumn.padding = #1.0
         << s4 \f  \\d4-4   >> c8-4 \>  b-3 |
 
     %BAR 50
