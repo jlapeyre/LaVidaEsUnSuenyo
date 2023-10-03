@@ -7,6 +7,8 @@ This repo contains a transcription of the guitar ([Marc Ribot](https://en.wikipe
 bass ([Brad Jones](https://en.wikipedia.org/wiki/Brad_Jones_(bassist))) parts from a recording of an arrangement by
 [*Marc Ribot y Los Cubanos Postizos*](https://www.marcribot.com/marc-ribot-y-los-cubanos-postizos).
 
+I made this transcription in 2005.
+
 ## Files
 
 * [`la_vida_es_un_sueño.pdf`](la_vida_es_un_sueño.pdf) Score (engraving) of guitar and bass parts.
