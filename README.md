@@ -136,7 +136,7 @@ related to the last dyad of [bar 4](#bar-4).
 The first five notes are `E7`. Almost the same as [bar 27](#bar-27).
 
 ##### Bar 8
-  The (1, 2, 3b and 5) from `A` major scale are here. Very
+The (1, 2, 3b and 5) from `A` major scale are here. Very
 similar to [bar 28](#bar-28). In bar 8 dyads consisting of minor
 thirds above each melody note are present (lowered an
 octave). In bar 28, the same notes are present, but with
@@ -165,43 +165,43 @@ tonic may be enhanced.
 
 ##### Bar 33
 
-Starts with 3,5 of G chord. The 3b appears as well.  These
+Starts with 3,5 of `G` chord. The `3b` appears as well.  These
 plain major and minor chords (and distortion and volume)
 produce a sudden rocky feel compared to the piece up to this
 point.
 
 ##### Bar 34
-  G Maj, or Gmin ?  Not clear whether this is a major or
-minor or blues scale. Other than (1,3,3b,5) only 2, the A
-appears.  The bass plays (1 3 5) of G Maj. An alternate
+  `G Maj`, or `Gmin` ?  Not clear whether this is a major or
+minor or blues scale. Other than (`1`, `3`, `3b`, `5`) only `2`, the `A`
+appears.  The bass plays (`1` `3` `5`) of `G Maj`. An alternate
 position, that I prefer, for the notes after the rests is
 the tenth position.
 
 ##### Bar 35
 
-This measure fits well with a strummed B or B7. The bass
-player plays 1 and 5 of B. The last note in the measure is
-3b, but it does not give a minor character to the bar. The
-guitar enters with 7b and 4 of B. Most following notes are
-in the G M sc. The 4th and 5th of B are present.
+This measure fits well with a strummed `B` or `B7`. The bass
+player plays `1` and `5` of `B`. The last note in the measure is
+`3b`, but it does not give a minor character to the bar. The
+guitar enters with `7b` and `4` of `B`. Most following notes are
+in the `G` M scale. The 4th and 5th of `B` are present.
 
 ##### Bar 36
 
-Starts with arpeggiating an Am triad, then walks the bass
+Starts with arpeggiating an `Am` triad, then walks the bass
 down.
 
 ##### Bar 39
 
-This software can't do notation for bends in blues
+This software can't (check this) do notation for bends in blues
 guitar. Both notes in this bend (written as a slur) are
-struck. The first note is struck as a C and bent quickly to
-a D. After holding the D, it is lowered quickly and struck
-as a C. There is standard notation for this extremely common
+struck. The first note is struck as a `C` and bent quickly to
+a `D`. After holding the `D`, it is lowered quickly and struck
+as a `C`. There is (no?) standard notation for this extremely common
 blues licklet.
 
 ##### Bar 41
 
-Hits all of and only G major scale. This makes an
+Hits all of and only `G` major scale. This makes an
 obvious contrast with the blues scale in the previous bar.
 
 ##### Bar 42
@@ -214,14 +214,14 @@ Monk's rubato, I have not listened that closely to Monk.
 
 ##### Bar 43
 
-Gu. enters playing (1,3) of B. Descends chromatically to
-B and descends here with (1 5+ 4 7) then ascends
-chromatically to E for the next bar. Bass plays (1,3,5,7b)
-of B.
+Guitar enters playing `1` and `3` of `B`. Descends chromatically to
+`B` and descends here with (`1` `5+` `4` `7`) then ascends
+chromatically to `E` for the next bar. Bass plays (`1`,`3`,`5`,`7b`)
+of `B`.
 
 #### Verses without words, bars 46 -- 53, and 54 -- 61
 
 ##### Bar 46
 
-Can barre with 3rg f. . An alternate fingering is to play
-g-3 and barre c-4 e-4
+Can barre with 3rg f. (what did I mean to write?) . An alternate fingering is to play
+`g-3` and barre `c-4` and `e-4`.
