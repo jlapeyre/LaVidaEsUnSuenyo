@@ -13,8 +13,8 @@ Included are parts for guitar (Marc Ribot) and bass (Brad Jones).
 This is my first transcription, the first time I have
 written down music in any notational system, the first time
 I have studied chords, etc. I learned most of the music
-theory using the "this guy on the internet" method. My choice
-of notating enharmonic pitches is probably often wrong.
+theory using the "this guy on the internet" method. My choices
+of notating enharmonic pitches may often be wrong.
 I don't recommend trying to learn about these subjects in
 general from this document.
 
