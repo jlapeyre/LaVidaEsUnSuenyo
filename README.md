@@ -72,23 +72,20 @@ the articulation at that postion in the piece.
 
 ### Midi
 
-The midi is not at all for performance. It is useful for
-hearing wrong intervals and rhythms. However, if you listen to
+The midi file is generated automatically by LilyPond from the
+score. It is useful for hearing wrong intervals and rhythms. However, if you listen to
 it expecting to find music, you will find anti-music.
-  Generating the midi was rather complicated: The midi that
-LilyPond will generate from lveus.ly will be wrong
+
+Generating the midi was rather complicated: (Note: Recent versions of LilyPond
+are better than the description below, written in 2005)
+The midi that LilyPond generates from is wrong
 dynamically and the the bass and guitar will go out of
-sync. I generated the midi from a modified version of the
-source file lveus.ly. I stripped the dynamics from lveus.ly
-with a perl script otherwise the midi is silent in many
-places. Glissandos to and from nowhere must be marked by
+sync. Glissandos to and from nowhere must be marked by
 making glissandos to hidden grace notes. The note is marked
 grace so that it occupies no time in the bar. It is marked
-hidden so that it doesn't print.  But the midi file, not
+hidden so that it doesn't print. But the midi file, not
 only does not hide grace note, but lets it occupy time. So I
 stripped these commands as well.
-
-Notes on the Music:
 
 ### Structure of the piece
 
@@ -120,6 +117,8 @@ and more distortion and no tremelo.
 
 ### Detailed bar-by-bar notes
 
+#### Introduction Bars 1 -- 11
+
 ##### Bar 4
 
 I need to check this again. It is seems that the
@@ -143,6 +142,8 @@ thirds above each melody note are present (lowered an
 octave). In bar 28, the same notes are present, but with
 minor thirds below each melody note.
 
+#### First Verse bars 12 -- 23
+
 ##### Bar 16
 
 If the bass were here, it would be walking chromatically
@@ -151,12 +152,16 @@ the whole time, rather than walking down. I think the
 chromatically changing root is probably the correct way to
 think about it. Anyway I marked the chords both ways.
 
+#### Second Verse bars 24 -- 31
+
 ##### Bar 25
 
 This chord has the notes `C# G Bb E` and can be interpreted as
 `1 3b 5b 6` with any of the four notes taken as the root (with inversions).
 Since the chord is arpeggiated, the ambiguity over which is the
 tonic may be enhanced.
+
+#### Guitar Solo bars 32 -- 45
 
 ##### Bar 33
 
@@ -213,6 +218,8 @@ Gu. enters playing (1,3) of B. Descends chromatically to
 B and descends here with (1 5+ 4 7) then ascends
 chromatically to E for the next bar. Bass plays (1,3,5,7b)
 of B.
+
+#### Verses without words, bars 46 -- 53, and 54 -- 61
 
 ##### Bar 46
 
