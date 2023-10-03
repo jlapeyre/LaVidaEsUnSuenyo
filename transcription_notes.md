@@ -1,10 +1,13 @@
 ### Introduction
 
+**Warning**
 This is my first transcription, the first time I have
 written down music in any notational system, the first time
 I have studied chords, etc. I learned most of the music
-theory using the "this guy on the internet" method.  My choice
+theory using the "this guy on the internet" method. My choice
 of notating enharmonic pitches is probably often wrong.
+I don't recommend trying to learn about these subjects in
+general from this document.
 
 ### Annotations for guitar
 
@@ -123,28 +126,27 @@ related to the last dyad of [bar 4](#bar-4).
 
 ##### Bar 7
 
-The first five notes are `E7`. Almost the same as bar 27
+The first five notes are `E7`. Almost the same as [bar 27](#bar-27).
 
 ##### Bar 8
-  The (1, 2, 3b and 5) from A maj scale are here. Very
-similar to bar 28.  In bar 8 dyads consisting of minor
+  The (1, 2, 3b and 5) from `A` major scale are here. Very
+similar to [bar 28](#bar-28). In bar 8 dyads consisting of minor
 thirds above each melody note are present (lowered an
 octave). In bar 28, the same notes are present, but with
 minor thirds below each melody note.
 
 ##### Bar 16
-  If the bass were here, it would be walking chromatically
+
+If the bass were here, it would be walking chromatically
 down from A to F#. One might consider the root to be on A
 the whole time, rather than walking down. I think the
 chromatically changing root is probably the correct way to
 think about it. Anyway I marked the chords both ways.
 
 ##### Bar 25
-This chord has the notes
-  `C# G Bb E`
-  and can be interpreted as
-  `1 3b 5b 6`
-with any of the four notes taken as the root (with inversions).
+
+This chord has the notes `C# G Bb E` and can be interpreted as
+`1 3b 5b 6` with any of the four notes taken as the root (with inversions).
 Since the chord is arpeggiated, the ambiguity over which is the
 tonic may be enhanced.
 
