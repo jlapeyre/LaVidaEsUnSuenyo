@@ -5,7 +5,7 @@ his *conjunto*.
 
 This repo contains a transcription of the guitar (Marc Ribot) and
 bass (Brad Jones) parts from a recording of an arrangement by
-*Marc Ribot y Los Cubanos Postizos*.
+[*Marc Ribot y Los Cubanos Postizos*](https://www.marcribot.com/marc-ribot-y-los-cubanos-postizos).
 
 ## Notes on transcription
 
