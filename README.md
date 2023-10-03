@@ -7,6 +7,15 @@ This repo contains a transcription of the guitar ([Marc Ribot](https://en.wikipe
 bass ([Brad Jones](https://en.wikipedia.org/wiki/Brad_Jones_(bassist))) parts from a recording of an arrangement by
 [*Marc Ribot y Los Cubanos Postizos*](https://www.marcribot.com/marc-ribot-y-los-cubanos-postizos).
 
+## Files
+
+* [`la_vida_es_un_sueño.pdf`](la_vida_es_un_sueño.pdf) Score (engraving) of guitar and bass parts.
+* [`la_vida_es_un_sueño.midi`](la_vida_es_un_sueño.midi) Midi file generated (crudely) from the score.
+* [`la_vida_es_un_sueño.ly`](la_vida_es_un_sueño.ly) LilyPond source for the guitar parts
+* [`la_vida_es_un_sueño-bass.ly`](la_vida_es_un_sueño-bass.ly) LilyPond source for the bass parts.
+
+You can build the pdf and midi files with the command `lilypond la_vida_es_un_sueño.ly`.
+
 ## Notes on transcription
 
 **Warning!**
