@@ -112,16 +112,18 @@ and more distortion and no tremelo.
 I need to check this again. It is seems that the
 space of five eight notes are occupied by seven even
 beats. The notes are all in the `GMaj` scale except for
-Bb. The first five notes form a `CMaj7`. I wonder to what
+`Bb`. The first five notes form a `CMaj7`. I wonder to what
 extent the choice of the last two notes fits into a
 practical theoretical idea.
 
 ##### Bar 5
-   This maybe something like a C#m chord. It is probably
-related to the last dyad of bar 4.
+
+This maybe something like a `C#m` chord. It is probably
+related to the last dyad of [bar 4](#bar-4).
 
 ##### Bar 7
-The first five notes are E7. Almost the same as bar 27
+
+The first five notes are `E7`. Almost the same as bar 27
 
 ##### Bar 8
   The (1, 2, 3b and 5) from A maj scale are here. Very
