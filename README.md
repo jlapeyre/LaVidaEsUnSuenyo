@@ -1,6 +1,4 @@
 # Guitar and Bass parts of *La Vida Es Un Sueño*
-## Arsenio Rodriguez
-## Arr. Marc Ribot
 
 *La Vida Es Un Sueño* was composed by [Arsenio Rodriguez](https://en.wikipedia.org/wiki/Arsenio_Rodr%C3%ADguez) and performed by
 his *conjunto*.
