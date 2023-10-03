@@ -6,7 +6,7 @@ his *conjunto*.
 This repo contains a transcription of a recording of an arrangement by *Cubanos Postizos*.
 Included are parts for guitar (Marc Ribot) and bass (Brad Jones).
 
-### Introduction
+## Notes on transcription
 
 **Warning!**
 
