@@ -1,0 +1,208 @@
+### Introduction
+
+This is my first transcription, the first time I have
+written down music in any notational system, the first time
+I have studied chords, etc. I learned most of the music
+theory using the "this guy on the internet" method.  My choice
+of notating enharmonic pitches is probably often wrong.
+
+### Annotations for guitar
+
+#### Chords and Frets
+
+  I began putting fret diagrams on the score simply to
+notate easily where to put my fingers, because in several
+sections Ribot plays a chord or broken chord or arpeggio
+with an immobile left hand. I began to put chord symbols
+(ie, names G, Am, etc.) over the fret diagrams that
+corresponded to obvious chords. Then I began to try to find
+the chords for all of the music. The result is that the
+chord symbols don't have a single purpose. They may be a
+literal interpretation of the fret diagram. They may
+represent the chord that I think Ribot and Jones may have in
+mind during a bar. They may represent what I think is the basic
+chord in the progression without a substitution.
+
+ Instead of fret diagrams, I sometimes use an approximation
+of standard classical guitar notation by putting arabic
+numerals above note heads to indicate left hand
+fingering. Likewise I sometimes use italic roman numerals to
+indicate left hand position, and circled arabic numerals to
+indicate the string. A zero with a tail is borrowed from
+cello notation to indicate fretting with the thumb. I would
+like to indicate barres and the duration of positions more
+accurately, but all of this is laborious in
+LilyPond. Unfortunately, it is not possible include the
+standard notation for string bends in transcribed blues
+guitar. I have tried to indicate some of this with the word
+"bend" and text notes below. I have used a cup above notes
+to indicate a quarter bend. These are never really quarter
+bends, but indications to listen carefully at that bar for
+how the guitarist bends the note.  Slurs indicate hammerons
+and pulloffs.  Glissandos are indicated by straight lines
+(sometimes too short or misshapen, depending on how much
+effort I was able to put into fighting LilyPond), and
+represent slides.
+
+Barres are not notated, but should not be hard to figure out.
+
+#### Articulation
+
+I use the tenuto symbol, a bar over a note head, to indicate
+that a note is held; a staccato symbol, a dot, to indicate
+that a note is shortened; and a portando symbol, a line and
+a dot, to indicate that the note is shortened a bit more
+than if playing legato or normally.  But they are a rather
+crude approximation of the articulation and rubato on the
+recording and are merely reminders to listen carefully to
+the articulation at that postion in the piece.
+
+### Midi
+
+The midi is not at all for performance. It is useful for
+hearing wrong intervals and rhythms. However, if you listen to
+it expecting to find music, you will find anti-music.
+  Generating the midi was rather complicated: The midi that
+LilyPond will generate from lveus.ly will be wrong
+dynamically and the the bass and guitar will go out of
+sync. I generated the midi from a modified version of the
+source file lveus.ly. I stripped the dynamics from lveus.ly
+with a perl script otherwise the midi is silent in many
+places. Glissandos to and from nowhere must be marked by
+making glissandos to hidden grace notes. The note is marked
+grace so that it occupies no time in the bar. It is marked
+hidden so that it doesn't print.  But the midi file, not
+only does not hide grace note, but lets it occupy time. So I
+stripped these commands as well.
+
+Notes on the Music:
+
+### Structure of the piece
+
+The song (the recording of the song by Los Cubanos Postizos)
+has an A B A B A A structure with variations in all repeated
+parts. Each of A and B is a chord progression.  Bars 1-11
+are A and consists of solo guitar, with tremelo and not too
+much distortion and probably finger picked.  Bars 12-23 are
+B and add spoken vocals.  Bars 24-31 are A played a bit
+differently and with sung vocals.  Bars 33-45 are B and are
+the guitar solo. The arrangement here uses distorted guitar,
+electric bass guitar, organ (or something like that) and
+some kind of stick, maybe claves. Bars 46-53 and 54-61 are A
+done twice with the same instrumentation as the previous
+section but added sung vocals and maybe some other
+noises. Bars 62-64 are an outro consisting of solo guitar.
+
+### Small performance hint
+
+I play bars 1-32 mostly with my thumb and fingers when
+necessary.  I use the side and a bit of nail for louder or
+more percussive notes and rotate the thumb and use more pad
+for the soft notes. I play it on a telecaster with the neck
+pickup and electronic rotating tremelo.  I don't know what
+Ribot uses.  It sounds like he arpeggiates, at least
+slightly, every chord, which makes me think he may be
+strumming somehow. I play the rest of the song with a pick
+and more distortion and no tremelo.
+
+### Detailed bar-by-bar notes
+
+##### Bar 4
+
+I need to check this again. It is seems that the
+space of five eight notes are occupied by seven even
+beats. The notes are all in the `GMaj` scale except for
+Bb. The first five notes form a `CMaj7`. I wonder to what
+extent the choice of the last two notes fits into a
+practical theoretical idea.
+
+##### Bar 5
+   This maybe something like a C#m chord. It is probably
+related to the last dyad of bar 4.
+
+##### Bar 7
+The first five notes are E7. Almost the same as bar 27
+
+##### Bar 8
+  The (1, 2, 3b and 5) from A maj scale are here. Very
+similar to bar 28.  In bar 8 dyads consisting of minor
+thirds above each melody note are present (lowered an
+octave). In bar 28, the same notes are present, but with
+minor thirds below each melody note.
+
+##### Bar 16
+  If the bass were here, it would be walking chromatically
+down from A to F#. One might consider the root to be on A
+the whole time, rather than walking down. I think the
+chromatically changing root is probably the correct way to
+think about it. Anyway I marked the chords both ways.
+
+##### Bar 25
+This chord has the notes
+  `C# G Bb E`
+  and can be interpreted as
+  `1 3b 5b 6`
+with any of the four notes taken as the root (with inversions).
+Since the chord is arpeggiated, the ambiguity over which is the
+tonic may be enhanced.
+
+##### Bar 33
+
+Starts with 3,5 of G chord. The 3b appears as well.  These
+plain major and minor chords (and distortion and volume)
+produce a sudden rocky feel compared to the piece up to this
+point.
+
+##### Bar 34
+  G Maj, or Gmin ?  Not clear whether this is a major or
+minor or blues scale. Other than (1,3,3b,5) only 2, the A
+appears.  The bass plays (1 3 5) of G Maj. An alternate
+position, that I prefer, for the notes after the rests is
+the tenth position.
+
+##### Bar 35
+
+This measure fits well with a strummed B or B7. The bass
+player plays 1 and 5 of B. The last note in the measure is
+3b, but it does not give a minor character to the bar. The
+guitar enters with 7b and 4 of B. Most following notes are
+in the G M sc. The 4th and 5th of B are present.
+
+##### Bar 36
+
+Starts with arpeggiating an Am triad, then walks the bass
+down.
+
+##### Bar 39
+
+This software can't do notation for bends in blues
+guitar. Both notes in this bend (written as a slur) are
+struck. The first note is struck as a C and bent quickly to
+a D. After holding the D, it is lowered quickly and struck
+as a C. There is standard notation for this extremely common
+blues licklet.
+
+##### Bar 41
+
+Hits all of and only G major scale. This makes an
+obvious contrast with the blues scale in the previous bar.
+
+##### Bar 42
+
+The notation for the rhythm here is a bit awkward.  The
+triplet counts for one eighth note. The actual rhythm steals
+somewhere between a 32nd and a 64th from the eighth note. I
+wonder if this is what Ribot meant when he talked about
+Monk's rubato, I have not listened that closely to Monk.
+
+##### Bar 43
+
+Gu. enters playing (1,3) of B. Descends chromatically to
+B and descends here with (1 5+ 4 7) then ascends
+chromatically to E for the next bar. Bass plays (1,3,5,7b)
+of B.
+
+##### Bar 46
+
+Can barre with 3rg f. . An alternate fingering is to play
+g-3 and barre c-4 e-4
