@@ -2,9 +2,7 @@
 \version "2.24.0"
 
 % La Vida Es un Sueno arr. by Marc Ribot
-% Version 0.01 of this document
-
-% \include "lveusbass.ly"
+% Version 1.0 of this document
 
 #(set-default-paper-size "letter")
 
@@ -18,11 +16,8 @@
   title = \markup{"La Vida Es Un Sueño"}
   composer = "Arsenio Rodriguez"
   arranger = "Arr. Marc Ribot"
-  enteredby="John Lapeyre"
-  tagline = "Vers. 0.01 Oct. 9, 2005. Transcription by John Lapeyre. Engraving by LilyPond 2.6.3"
-  lastupdated = "2005/Sept/25"
+  tagline = "Vers. 1.0 Oct. 3, 2023. Transcription by John Lapeyre. Engraving by LilyPond 2.24"
 }
-
 
 %%%%%%%%
 %%%%%%%% Introduction
@@ -48,7 +43,7 @@ Introduction = {
 %   \override Glissando.thickness = 3
 
 %% make the tempo mark
-   \tempo   8=144
+   \tempo 8=144
    \time 2/4
    % BAR 1
     <c-3 e-4>8^\markup { \box\line\tiny{ C} }
