@@ -100,7 +100,7 @@ stripped these commands as well.
 
 ### Structure of the piece
 
-The song (the recording of the song by Los Cubanos Postizos)
+The song (the recording of the song by *Los Cubanos Postizos*)
 has an A B A B A A structure with variations in all repeated
 parts. Each of A and B is a chord progression.  Bars 1-11
 are A and consists of solo guitar, with tremelo and not too
