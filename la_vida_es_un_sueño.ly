@@ -23,6 +23,7 @@
   lastupdated = "2005/Sept/25"
 }
 
+
 %%%%%%%%
 %%%%%%%% Introduction
 %%%%%%%% Solo guitar
@@ -31,7 +32,7 @@
 Introduction = {
 
 %  \override Glissando.bound-details.right.arrow = ##t
-%% Raise the metronome tempo mark a bit so it doesn't hit the notes in the staff  
+%% Raise the metronome tempo mark a bit so it doesn't hit the notes in the staff
    \override Score.MetronomeMark.padding = #9.0
    \override Staff.DynamicLineSpanner.padding = #4.0
 
@@ -129,8 +130,9 @@ Introduction = {
 % \override TextScript.padding = #5
 % \revert TextScript.padding
 
-     %BAR 11
-     <d, fis c' e >1^\markup {\fret-diagram-terse "x;5;4;5;5;x;"}
+   %BAR 11
+   \arpeggioArrowUp
+   <d, fis c' e >1\arpeggio^\markup {\fret-diagram-terse "x;5;4;5;5;x;"}
           ^\markup \box\line\tiny{D9} \bar "||" |
 
 % End Introduction , solo guitar
@@ -303,7 +305,7 @@ Verse_B = {
        }
 
 % Guitar solo, with band backing, no vocal
-guitarsolo = \relative c' {
+GuitarSolo = \relative c' {
      \set Staff.instrumentName = "Elect. Guitar"
      \set Staff.shortInstrumentName = "Elec. G. "
      \set Staff.midiInstrument = #"overdriven guitar"
@@ -443,7 +445,7 @@ guitarparttwo = \relative c' {
 %   \override Glissando.thickness = #5.0
     << {  e'4-2 \<  }  \\ { r8 gis16-1 b16-4 \glissando} >>
 % PaperColumn and NonMusicalPaperColumn do nothing in this entire source file.
-% Previously I had SeparationItem, which became a no-op and warning in some version of LP.   
+% Previously I had SeparationItem, which became a no-op and warning in some version of LP.
 % Current edit is also a noop, but gives no warning.
 % I think it is \once that makes it a no op
 % Without \once, this grob applies to the entire output, everywhere
@@ -538,23 +540,28 @@ guitarending = \relative c' {
         b-3 d-1
        g,-1^\markup{\circle\finger  4} \glissando b d,-2^\markup{\circle\finger  4}
        g-2^\markup{\circle\finger  5}\glissando
-    \override Score.PaperColumn.padding = #0.8
+% override and revert does not work as it should
+%    \override Score.NonMusicalPaperColumn.padding = #1.0
     \set stringNumberOrientations = #'(down right up)
         b,-2^\markup{\circle\finger 6}
          \glissando g \stopTextSpan
-   \revert Score.PaperColumn.padding
+%   \revert Score.NonMusicalPaperColumn.padding
     <g b' fis'>2^\markup \fret-diagram-terse "3;x;x;x;o;2;" ~<g b' fis'>2
    \bar "|."
 
 }
 
 SoloGuitar = \relative c'' {
-       \clef treble
-       \key g \major
-       \set Staff.midiInstrument = "electric guitar (jazz)"
-	\Introduction
-        \Verse_A
-        \Verse_B
+  % Increase space between all elements. Everywhere, not just
+  % in this part. A value slightly greater than one makes a very
+  % large change in the layout. Uses four full pages rather than three.
+  \override Score.NonMusicalPaperColumn.padding = #1.05
+  \clef treble
+  \key g \major
+  \set Staff.midiInstrument = "electric guitar (jazz)"
+  \Introduction
+  \Verse_A
+  \Verse_B
 }
 
 %%%%%%%%
@@ -566,7 +573,7 @@ SoloGuitar = \relative c'' {
 \score {
  \new StaffGroup
    \relative c' <<
-   \new Staff { \SoloGuitar  \break  << {\guitarsolo  \guitarparttwo \guitarending}
+   \new Staff { \SoloGuitar  \break  << {\GuitarSolo  \guitarparttwo \guitarending}
                \new Staff {  \BassPartOne \BassPartTwo} >> }
 %    \new Staff {    << { \guitarparttwo \guitarending} \new Staff {   \bassparttwo } >> }
 
