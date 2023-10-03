@@ -3,8 +3,8 @@
 *La Vida Es Un Sueño* was composed by [Arsenio Rodriguez](https://en.wikipedia.org/wiki/Arsenio_Rodr%C3%ADguez) and performed by
 his *conjunto*.
 
-This repo contains a transcription of the guitar (Marc Ribot) and
-bass (Brad Jones) parts from a recording of an arrangement by
+This repo contains a transcription of the guitar ([Marc Ribot](https://en.wikipedia.org/wiki/Marc_Ribot)) and
+bass ([Brad Jones](https://en.wikipedia.org/wiki/Brad_Jones_(bassist))) parts from a recording of an arrangement by
 [*Marc Ribot y Los Cubanos Postizos*](https://www.marcribot.com/marc-ribot-y-los-cubanos-postizos).
 
 ## Notes on transcription
@@ -27,7 +27,7 @@ general from this document.
 notate easily where to put my fingers, because in several
 sections Ribot plays a chord or broken chord or arpeggio
 with an immobile left hand. I began to put chord symbols
-(ie, names G, Am, etc.) over the fret diagrams that
+(ie, names `G`, `Am`, etc.) over the fret diagrams that
 corresponded to obvious chords. Then I began to try to find
 the chords for all of the music. The result is that the
 chord symbols don't have a single purpose. They may be a
