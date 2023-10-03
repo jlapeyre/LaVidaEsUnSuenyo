@@ -111,7 +111,7 @@ noises. Bars 62-64 are an outro consisting of solo guitar.
 I play bars 1-32 mostly with my thumb and fingers when
 necessary.  I use the side and a bit of nail for louder or
 more percussive notes and rotate the thumb and use more pad
-for the soft notes. I play it on a telecaster with the neck
+for the soft notes. I played it on a telecaster with the neck
 pickup and electronic rotating tremelo.  I don't know what
 Ribot uses.  It sounds like he arpeggiates, at least
 slightly, every chord, which makes me think he may be
@@ -125,9 +125,7 @@ and more distortion and no tremelo.
 I need to check this again. It is seems that the
 space of five eight notes are occupied by seven even
 beats. The notes are all in the `GMaj` scale except for
-`Bb`. The first five notes form a `CMaj7`. I wonder to what
-extent the choice of the last two notes fits into a
-practical theoretical idea.
+`Bb`. The first five notes form a `CMaj7`.
 
 ##### Bar 5
 
