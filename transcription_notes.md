@@ -1,6 +1,7 @@
 ### Introduction
 
-**Warning**
+#### **Warning**
+
 This is my first transcription, the first time I have
 written down music in any notational system, the first time
 I have studied chords, etc. I learned most of the music
