@@ -1,4 +1,4 @@
-# Guitar and Bass parts of La Vida Es Un Sueño
+# Guitar and Bass parts of *La Vida Es Un Sueño*
 ## Arsenio Rodrigues
 ## Arr. Marc Ribot
 
