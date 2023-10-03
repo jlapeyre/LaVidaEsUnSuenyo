@@ -1,11 +1,11 @@
 # *La Vida Es Un Sueño*
-## For guitar and bass
 
 *La Vida Es Un Sueño* was composed by [Arsenio Rodriguez](https://en.wikipedia.org/wiki/Arsenio_Rodr%C3%ADguez) and performed by
 his *conjunto*.
 
-This repo contains a transcription of a recording of an arrangement by *Cubanos Postizos*.
-Included are parts for guitar (Marc Ribot) and bass (Brad Jones).
+This repo contains a transcription of the guitar (Marc Ribot) and
+bass (Brad Jones) parts from a recording of an arrangement by
+*Marc Ribot y Los Cubanos Postizos*.
 
 ## Notes on transcription
 
