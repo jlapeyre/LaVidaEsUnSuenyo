@@ -120,8 +120,8 @@ I play bars 1-32 mostly with my thumb and fingers when
 necessary.  I use the side and a bit of nail for louder or
 more percussive notes and rotate the thumb and use more pad
 for the soft notes. I played it on a telecaster with the neck
-pickup and electronic rotating tremelo.  I don't know what
-Ribot uses.  It sounds like he arpeggiates, at least
+pickup and electronic rotating tremelo.  ~~I don't know what
+Ribot uses.~~ It sounds like he arpeggiates, at least
 slightly, every chord, which makes me think he may be
 strumming somehow. I play the rest of the song with a pick
 and more distortion and no tremelo.
