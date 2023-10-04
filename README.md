@@ -123,6 +123,7 @@ for the soft notes. I played it on a telecaster with the neck
 pickup and electronic rotating tremelo.  ~~I don't know what
 Ribot uses.~~ In the meantime I have found youtube videos of
 Ribot playing LVEUS on a Gibson hollow body.
+But, I've freuquently seen him play a telecaster.
 It sounds like he arpeggiates, at least
 slightly, every chord, which makes me think he may be
 strumming somehow. I play the rest of the song with a pick
