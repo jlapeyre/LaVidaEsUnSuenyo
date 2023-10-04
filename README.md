@@ -7,7 +7,7 @@ This repo contains a transcription of the guitar ([Marc Ribot](https://en.wikipe
 bass ([Brad Jones](https://en.wikipedia.org/wiki/Brad_Jones_(bassist))) parts from a recording of an arrangement by
 [*Marc Ribot y Los Cubanos Postizos*](https://www.marcribot.com/marc-ribot-y-los-cubanos-postizos).
 
-I made this transcription in 2005.
+I made this transcription in 2005. This page is an edited and updated version of what I wrote then.
 
 ## Files
 
@@ -121,7 +121,9 @@ necessary.  I use the side and a bit of nail for louder or
 more percussive notes and rotate the thumb and use more pad
 for the soft notes. I played it on a telecaster with the neck
 pickup and electronic rotating tremelo.  ~~I don't know what
-Ribot uses.~~ It sounds like he arpeggiates, at least
+Ribot uses.~~ In the meantime I have found youtube videos of
+Ribot playing LVEUS on a Gibson hollow body.
+It sounds like he arpeggiates, at least
 slightly, every chord, which makes me think he may be
 strumming somehow. I play the rest of the song with a pick
 and more distortion and no tremelo.
