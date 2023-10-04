@@ -18,6 +18,14 @@ I made this transcription in 2005. This page is an edited and updated version of
 
 You can build the pdf and midi files with the command `lilypond la_vida_es_un_sueño.ly`.
 
+## Some recordings
+
+[Here](https://www.youtube.com/watch?v=3vigOkTKKew) arranged for alto saxophone (Miguel Zenón) and piano (Luis Perdomo)
+Here, it is sung by [Carlos Cuevas y los Tres Reyes](https://www.youtube.com/watch?v=D20-dRzbV2Q).
+
+You can find a few unrelated songs also called La Vida Es Un Sueño.
+
+
 ## Notes on transcription
 
 **Warning!**
