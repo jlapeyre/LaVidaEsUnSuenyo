@@ -20,8 +20,16 @@ You can build the pdf and midi files with the command `lilypond la_vida_es_un_su
 
 ## Some recordings
 
-[Here](https://www.youtube.com/watch?v=3vigOkTKKew) arranged for alto saxophone (Miguel Zenón) and piano (Luis Perdomo)
-Here, it is sung by [Carlos Cuevas y los Tres Reyes](https://www.youtube.com/watch?v=D20-dRzbV2Q).
+Putting together this repo, I discovered that there are, of course, many more recordings of the song available.
+Here are some that I find interesting.
+
+* [Arsenio Rodriguez](https://www.youtube.com/watch?v=8cwTPzxPdmE)
+* [Johnny Rodriguez y su Trio](https://www.youtube.com/watch?v=bjBARq2RxTo)
+* Arranged for [alto saxophone (Miguel Zenón) and piano (Luis Perdomo)](https://www.youtube.com/watch?v=3vigOkTKKew)
+* [Daniel Santos](https://www.youtube.com/watch?v=-pgnnHcIYr4)
+* [Charlie Figueroa](https://www.youtube.com/watch?v=JKUGsOkPdl8)
+* [Los Provincianos](https://www.youtube.com/watch?v=32y2z_USMMs)
+* [Carlos Cuevas y los Tres Reyes](https://www.youtube.com/watch?v=D20-dRzbV2Q), [and here too](https://www.youtube.com/watch?v=FL7z8PPt4t4).
 
 You can find a few unrelated songs also called La Vida Es Un Sueño.
 

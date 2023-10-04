@@ -137,14 +137,17 @@ Introduction = {
 %%%%%%%% First Verse (Verse A)
 %%%%%%%%
 
+
+%% This section is one guitar and one voice (vocal part is not scored)
 Verse_A = {
 
-         % This section is one guitar and one voice (vocal part is not scored)
-	  %BAR 12
-         << {g,1\mf ^\markup{ \fret-diagram-terse "3;5;5;4;x;x;"  }
-                  ^\markup{\box\tiny G} _\markup{ First verse }
-                     ^\markup{\circle\bold B}  }
-            \\ {s8 d'8~d2.} \\ {s4 g2.} \\ { s4. \> b8~b4 \!}   >>   |
+  %BAR 12
+  <<
+    {g,1\mf ^\markup{ \fret-diagram-terse "3;5;5;4;x;x;"  }
+      ^\markup{\box\tiny G} % _\markup{ First verse }
+      ^\markup{\circle\bold B}  }
+     \\ {s8 d'8~d2.} \\ {s4 g2.} \\ { s4. \> b8~b4 \!}
+  >> |
 
 	  %BAR 13
          << {b,1\mf^\markup {\fret-diagram-terse "7;9;9;8;x;x;"}^\markup{\box\tiny B}}
@@ -234,6 +237,7 @@ Verse_A = {
              ^\markup{\box\line\tiny {C\sharp m}}
      \bar "||"
      % End of solo guitar part, band enters in next section
+
 }
 
 %%%%%%%%
