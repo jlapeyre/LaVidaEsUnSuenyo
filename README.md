@@ -27,7 +27,16 @@ I made this transcription in 2005. This page is an edited and updated version of
 * [`la_vida_es_un_sueño.ly`](la_vida_es_un_sueño.ly) LilyPond source for the guitar parts
 * [`la_vida_es_un_sueño-bass.ly`](la_vida_es_un_sueño-bass.ly) LilyPond source for the bass parts.
 
-You can build the pdf and midi files with the command `lilypond la_vida_es_un_sueño.ly`.
+A transcription in LilyPond is a plain-text source file (with suffix `ly`). So it is
+well suited for living in a git repo. If you care about mistakes or improvements, you can
+open an issue here.
+
+### Building the pdf and midi
+
+You can build the pdf and midi files with the command
+```shell
+lilypond la_vida_es_un_sueño.ly
+```
 
 ## Some recordings
 
