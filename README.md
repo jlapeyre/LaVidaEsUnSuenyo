@@ -36,7 +36,7 @@ You can find a few unrelated songs also called La Vida Es Un Sueño.
 
 ## Notes on transcription
 
-[!IMPORTANT]
+> [!IMPORTANT]
 
 **Warning!**
 
