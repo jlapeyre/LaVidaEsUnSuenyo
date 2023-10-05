@@ -13,7 +13,9 @@ I made this transcription in 2005. This page is an edited and updated version of
 * [Some recordings](#some-recordings)
 * [Notes on transcription](#notes-on-transcription)
     * [Annotations for guitar](#annotations-for-guitar)
-
+        * [Chords and Frets](#chords-and-frets)
+        * [Articulation](#articulation)
+        
 ## Files
 
 * [`la_vida_es_un_sueño.pdf`](la_vida_es_un_sueño.pdf) Score (engraving) of guitar and bass parts.
