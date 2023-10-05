@@ -1,7 +1,7 @@
 # *La Vida Es Un Sueño*
 
 *La Vida Es Un Sueño* was composed by [Arsenio Rodriguez](https://en.wikipedia.org/wiki/Arsenio_Rodr%C3%ADguez) and performed by
-his *conjunto*.
+his *conjunto*[^1].
 
 This repository contains a [transcription](la_vida_es_un_sueño.pdf) of the guitar ([Marc Ribot](https://en.wikipedia.org/wiki/Marc_Ribot)) and
 bass ([Brad Jones](https://en.wikipedia.org/wiki/Brad_Jones_(bassist))) parts from a recording of an arrangement by
@@ -43,7 +43,6 @@ but here are a few that I find most interesting.
 * [Los Provincianos](https://www.youtube.com/watch?v=32y2z_USMMs)
 * [Carlos Cuevas y los Tres Reyes](https://www.youtube.com/watch?v=D20-dRzbV2Q), [and here too](https://www.youtube.com/watch?v=FL7z8PPt4t4).
 
-You can find a few unrelated songs also called La Vida Es Un Sueño.
 
 ## Notes on transcription
 
@@ -265,3 +264,8 @@ of `B`.
 
 Can barre with 3rg f. (what did I mean to write?) . An alternate fingering is to play
 `g-3` and barre `c-4` and `e-4`.
+
+### Footnotes
+
+[^1]: You can find a few unrelated songs also called La Vida Es Un Sueño.
+
