@@ -37,19 +37,13 @@ You can find a few unrelated songs also called La Vida Es Un Sueño.
 ## Notes on transcription
 
 > [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
-
-> [!IMPORTANT]
-
-**Warning!**
-
-This is my first transcription, the first time I have
-written down music in any notational system, the first time
-I have studied chords, etc. I learned most of the music
-theory using the "this guy on the internet" method. My choices
-of notating enharmonic pitches may often be wrong.
-I don't recommend trying to learn about these subjects in
-general from this document.
+> This is my first transcription, the first time I have
+> written down music in any notational system, the first time
+> I have studied chords, etc. I learned most of the music
+> theory using the "this guy on the internet" method. My choices
+> of notating enharmonic pitches may often be wrong.
+> I don't recommend trying to learn about these subjects in
+> general from this document.
 
 ### Annotations for guitar
 
