@@ -267,5 +267,8 @@ Can barre with 3rg f. (what did I mean to write?) . An alternate fingering is to
 
 ### Footnotes
 
-[^1]: You can find a few unrelated songs also called La Vida Es Un Sueño.
+[^1]: There are a few well-known, but unrelated, songs also called *La Vida Es Un Sueño*. In
+particular, one of these songs, covered by young, contemporary pop stars, has a bigger online
+presence.
+
 
