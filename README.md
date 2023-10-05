@@ -15,6 +15,10 @@ I made this transcription in 2005. This page is an edited and updated version of
     * [Annotations for guitar](#annotations-for-guitar)
         * [Chords and Frets](#chords-and-frets)
         * [Articulation](#articulation)
+    * [Midi](#midi)
+    * [Structure of the Piece](#structure-of-the-piece)
+    * [Small performance hints](#small-performance-hints)
+    * [Detailed bar-by-bar notes](#detailed-bar-by-bar-notes)
         
 ## Files
 
