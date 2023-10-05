@@ -9,7 +9,7 @@ bass ([Brad Jones](https://en.wikipedia.org/wiki/Brad_Jones_(bassist))) parts fr
 
 I made this transcription in 2005. This page is an edited and updated version of what I wrote then.
 
-* [Files](#files)
+* [Files](#files-in-the-repository)
 * [Some recordings](#some-recordings)
 * [Notes on transcription](#notes-on-transcription)
     * [Annotations for guitar](#annotations-for-guitar)
@@ -20,7 +20,7 @@ I made this transcription in 2005. This page is an edited and updated version of
     * [Small performance hints](#small-performance-hints)
     * [Detailed bar-by-bar notes](#detailed-bar-by-bar-notes)
         
-## Files
+## Files in the repository
 
 * [`la_vida_es_un_sueño.pdf`](la_vida_es_un_sueño.pdf) Score (engraving) of guitar and bass parts.
 * [`la_vida_es_un_sueño.midi`](la_vida_es_un_sueño.midi) Midi file generated (crudely) from the score.
